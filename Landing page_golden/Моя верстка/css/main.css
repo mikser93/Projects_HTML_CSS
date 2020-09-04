@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   padding: 0;
   margin: 0;
+  color: #242424;
 }
 
 .clearfix {
@@ -23,7 +24,7 @@ header {
 
 .logo {
   margin-top: 40px;
-  float: left;
+  float: left; /*Расположить в одну строку*/
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
 }
 
 .menu li {
-  float: left;
+  float: left; /*Расположить в одну строку*/
   display: block;
   margin-right: 40px;
 }
@@ -80,4 +81,53 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   margin-top: 50px;
+}
+
+.title {
+  padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5;
+}
+
+.services {
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+
+.services_item {
+  width: 270px;
+  float: left; /*Расположить в одну строку и присосать к ЛЕВОЙ стороне*/
+  text-align: center;
+}
+
+.services_item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.services_item p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+
+.services_item:last-child {
+  float: right; /*Расположить в одну строку и присосать к ПРАВОЙ стороне*/
+}
+
+.services_item:nth-child(2) {
+  margin-left: 60px;
 }
