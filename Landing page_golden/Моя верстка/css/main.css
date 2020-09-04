@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+header {
+  background: url(../img/first-bg.jpg) no-repeat center top/cover;
+  padding-bottom: 160px;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto; /*выставить блок по центру*/
+}
+
+.logo {
+  margin-top: 40px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 50px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 40px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; /*текст в верхнем регистре*/
+  font-size: 14px;
+}
+
+.titles_first {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase; /*текст в верхнем регистре*/
+  text-align: center; /*поставить текстовый блок по центру*/
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 75px;
+  color: #fff;
+  text-transform: uppercase; /*текст в верхнем регистре*/
+  text-align: center; /*поставить текстовый блок по центру*/
+  margin: 15px; /*по 15 сверху и снизу*/
+}
+
+.buttom {
+  background-color: #ddd901;
+  color: #000000;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none; /*Убрать одчеркивание*/
+  text-align: center; /*поставить текстовый блок по центру*/
+  text-transform: uppercase; /*текст в верхнем регистре*/
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+}
