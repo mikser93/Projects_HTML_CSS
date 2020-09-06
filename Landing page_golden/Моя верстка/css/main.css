@@ -35,12 +35,12 @@ nav {
 .menu {
   margin: 0;
   padding: 0;
-  display: block;
+  display: block; /*Делает из строчнго элемента блочный*/
 }
 
 .menu li {
   float: left; /*Расположить в одну строку*/
-  display: block;
+  display: block; /*Делает из строчнго элемента блочный*/
   margin-right: 40px;
 }
 
@@ -71,7 +71,7 @@ h1 {
   background-color: #ddd901;
   color: #000000;
   border-radius: 3px;
-  display: block;
+  display: block; /*Делает из строчнго элемента блочный*/
   width: 240px;
   padding: 20px 0;
   margin: 0 auto;
@@ -104,7 +104,6 @@ h1 {
 
 .services {
   margin-top: 50px;
-  padding-bottom: 120px;
 }
 
 .services_item {
@@ -130,4 +129,41 @@ h1 {
 
 .services_item:nth-child(2) {
   margin-left: 60px;
+}
+
+#services {
+  padding-bottom: 120px;
+}
+
+#portfolio {
+  background-color: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.works {
+  margin-top: 70px;
+}
+
+.works img {
+  float: left; /*Расположить в одну строку и присосать к ЛЕВОЙ стороне*/
+}
+
+.works img:nth-child(2) {
+  margin-left: 29px;
+}
+
+.works img:last-child {
+  float: right; /*Расположить в одну строку и присосать к ПРАВОЙ стороне*/
+}
+
+.about_us_main {
+}
+
+.about {
+  margin-top: 90px;
+  width: 280px;
+}
+
+.photo_about {
+  float: left;
 }
