@@ -98,9 +98,6 @@ nav {
 }
 
 .hero {
-}
-
-.hero {
   display: block;
   margin: 0 auto;
   max-width: 1600px;
@@ -133,7 +130,7 @@ nav {
 
 .button {
   display: inline-block;
-  min-width: 200px;
+  width: 140px;
   border-radius: 4px;
   padding: 10px 32px;
   margin-top: 30px;
@@ -149,4 +146,63 @@ nav {
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages_icon {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.advantages_title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.advantages_title li {
+  list-style: none;
+}
+
+.advantages_title h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.advantages_title p {
+  width: 270px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  color: #757575;
+}
+
+.advantages_title p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
